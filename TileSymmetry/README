@@ -1,0 +1,24 @@
+TileDriver
+
+	To the run the program, open a terminal
+session and change directory to the folder containing
+TileDriver.class. Enter the following command:
+
+	java TileDriver n
+
+where n is the number of arms to run the program with
+(0 - 12). Additional functionality can be accessed by
+running the program with either the following commands:
+
+	java TileDriver -os n
+	java TileDriver -lm n
+
+
+	Running with the -os option enables orbit/stabilizers
+tracking, and will display all possible orientations for each
+tile, as well as a list of any tiles that could not be generated
+rotationally.
+
+	Running with the -lm option enables a textual interface
+into which you can enter an arbitrary n-armed tile, and have it
+return the lex-minimal form.
