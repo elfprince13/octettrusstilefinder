@@ -1,3 +1,6 @@
+// Copyright 2012 Thomas Dickerson & Andrew Parent
+// Distributed under the terms of the GNU Lesser General Public License
+// (http://www.gnu.org/licenses/lgpl.html)
 package edu.smcvt.tilesymmetry;
 
 import java.util.*;
